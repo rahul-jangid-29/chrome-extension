@@ -1,0 +1,22 @@
+{
+    "name": "Dad Jokes",
+    "version": "1.0.0",
+    "description": "Get a daily dose of dad jokes with this fun extension!",
+    "manifest_version": 3,
+    "icons": {
+        "128": "logo.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "logo.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*.example.com/"
+    ]
+}
